@@ -18,5 +18,5 @@ Renames the common formatting macros to make them more friendly.
 Git clone or download the package and then symlink it:
 
 ```shell
-ln -s . ~/Library/texmf/tex/latex/local/latex-friendly-formatting
+ln -s $PWD ~/Library/texmf/tex/latex/local
 ```
