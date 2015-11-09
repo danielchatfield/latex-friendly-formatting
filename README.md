@@ -13,6 +13,13 @@ Renames the common formatting macros to make them more friendly.
 \end{document}
 ```
 
+## Macros
+
+ - `\bold`
+ - `\italic`
+ - `\smallcaps`
+ - `\slanted`
+
 ## Installation
 
 Git clone or download the package and then symlink it into the appropriate place
