@@ -1,6 +1,8 @@
 \ProvidesPackage{friendlyformatting}
 
-\renewcommand{\bold}{\textbf}
+\usepackage{etoolbox}
+
+\ifdef{\bold}{\renewcommand{\bold}{\textbf}}{\newcommand{\bold}{\textbf}}
 \newcommand{\italic}{\textit}
 \newcommand{\smallcaps}{\textsc}
 \newcommand{\slanted}{\textsl}
